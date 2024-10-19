@@ -1,0 +1,205 @@
+@media only screen and (max-width:650px) {
+    .cv-container{
+        display: block;
+        flex-direction: column; /* Stack columns vertically */
+    }
+    .left-column{
+        width: 100% !important; 
+    }
+
+}
+
+
+
+
+.img-name{
+    /* display: none;/ */
+    margin-bottom: 20px;
+    margin-top: -70px;
+}
+/* Global Styles - Reset box sizing and set font across the page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling - Set background color and padding for the entire page */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* CV Container - Define layout, centering the content, and adding shadow */
+.cv-container {
+    display: flex; /* Flexbox for two-column layout */
+    max-width: 900px; /* Limit the width */
+    margin: auto; /* Center container */
+    background-color: white; /* White background for the resume */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a 3D effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Cut off any content overflow */
+}
+
+/* Left Column - Set the layout for the profile, contact, and skills sections */
+.left-column {
+    width: 30%; /* Left column takes 30% of the width */
+    background-color: #000000; /* Black background */
+    padding: 20px;
+    text-align: center; /* Center text in the column */
+}
+
+/* Profile Image Styling */
+.profile-image img {
+    border-radius: 50%; /* Circular profile image */
+    width: 150px; /* Set fixed size */
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+/* Hover Effect on Profile Image */
+.profile-image img:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    box-shadow: -1px 1px 17px 9px #ffaa16; /* Orange glowing effect */
+}
+
+/* Main Heading - Adjusting size and font */
+h1 {
+    margin-top: 35px;
+    font-size: 42px; /* Large font size */
+    color: rgb(0, 0, 0); /* Black color */
+    font-weight: bolder; /* Bold font */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Hover effect for text with class 'co' */
+.co:hover {
+    text-shadow: 0px 0px 5px #ffa200; /* Orange shadow when hovering */
+}
+
+/* Job Title Text */
+.job-title {
+    color: gray; /* Gray color */
+    margin: 0 0 50px;
+    font-size: larger; /* Slightly larger font size */
+}
+
+/* Section Headers (Skills, Work Experience) */
+.hh {
+    background: black; /* Black background */
+    color: #ffa200 !important; /* Orange text */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px; /* Rounded corners */
+}
+
+/* Styling for elements with class 'co' */
+.co {
+    color: black !important; /* Text color black */
+    font-weight: 800; /* Bold text */
+    text-align: center; /* Centered text */
+    border-radius: 15px; /* Rounded corners */
+    padding: 0px 10px;  
+    background-color: #ffa200; /* Orange background */
+}
+
+/* Contact Information Text */
+.contact-info p {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left; /* Align text to left */
+    color: white; /* White text */
+}
+/* #skills-section{
+    display: none;
+} */
+/* Hover Effect for Toggle Button */
+.toggle-button:hover {
+    box-shadow: 0px 0px 15px 3px #ffa200; 
+    /* Orange glowing effect on hover */
+}
+
+/* Styling for Toggle Button */
+.toggle-button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 600; /* Bold text */
+}
+
+/* Bold Text with Orange Color */
+b {
+    color: #ffa200; /* Orange color */
+}
+
+/* Skills Section Header */
+.skills-section h2 {
+    margin: 30px 0 10px; /* Margin above and below */
+    text-align: center;
+    font-size: 18px;
+    color: white; /* White text */
+}
+
+/* Individual Skill Block */
+.skill {
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Progress Bar Container */
+.progress-bar {
+    background-color: #ffffff; /* White background */
+    border-radius: 25px; /* Rounded progress bar */
+    overflow: hidden;
+}
+
+/* Progress Bar itself */
+.progress {
+    height: 8px; /* Height of progress bar */
+    background-color: #ffa200; /* Orange color */
+    border-radius: 25px;
+}
+
+/* Right Column - Main Content Area (Profile, Experience, Education) */
+.right-column {
+    width: 70%; /* Right column takes 70% of the width */
+    padding: 20px;
+}
+
+/* Headers for Summary and Work Experience Sections */
+.summary-section h2, 
+.work-experience h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333; /* Darker gray text */
+}
+
+/* Paragraphs within Summary and Work Experience */
+.summary-section p, 
+.work-experience p {
+    font-size: 14px;
+    color: #666; /* Light gray text */
+    margin-bottom: 15px;
+}
+
+/* Job Titles in Work Experience Section */
+.job h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Styling for Current Job Indicator */
+.current {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 2px 6px;
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Font Awesome Icon Styles */
+.fa {
+    margin-right: 5px;
+    color: #00ff08; /* Bright green color */
+}

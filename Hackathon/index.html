@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-con"></div>
+    <div class="cv-container">
+        <!-- Left column with profile image, contact info, and skills -->
+        <div class="left-column">
+            <!-- Profile image -->
+            <div class="profile-image">
+                <img src="img/profile pic.jpg" alt="Jane Doe">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3 class="co" style="font-size: 18px; color: white;">Contact Us</h3>
+                <p><i class="fa fa-map-marker"></i><b>Address: </b>Latifabad Hyderabad</p>
+                <p><i class="fa fa-envelope"></i> <b>Email: </b>ffasihkhan00002gmail.com</p>
+                <p><i class="fa fa-phone"></i> <b>Phone Number: </b>03142811421</p>
+            </div>
+
+            <!-- Skills Section (Will be toggled) -->
+            <div class="skills-section" id="skills-section">
+                <div class="skill">
+                    <h2 class="co" id="skills-section">Skills</h2>
+                    <p>Web Development</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Next.js</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>TypeScript</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Digital Marketing</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Language Skills -->
+            <div class="skills-section">
+                <div class="skill">
+                    <h2 class="co">Language</h2>
+                    <p>Urdu</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>English</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Chinese</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%;"></div>
+                    </div>
+                </div>
+
+                <!-- Certifications Section -->
+                <div class="contact-info">
+                    <h3 class="co" style="font-size: 18px; color: white; margin-top: 20px;">Certification</h3>
+                    <p><i class="fa fa-map-marker"></i><b>DIT : </b>&nbsp;&nbsp;&nbsp;&nbsp;Comstech HYD</p>
+                    <p><i class="fa fa-envelope"></i> <b>Web Development: </b>Google</p>
+                    <p><i class="fa fa-phone"></i> <b>AI : </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Governor House</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right column with Profile, Experience, and Education -->
+        <div class="right-column">
+            <div class="proname">
+            <h1 class="co" style="margin-top: 40px; text-align: left; background-color: #fff;;">Fasih Uddin</h1>
+            <p class="job-title" style="font-size: 20px; font-weight: 600; padding-bottom: 5px; margin-left: 10px; margin-bottom: 65px;">Web Developer</p>
+        </div>
+            <!-- Profile Summary Section -->
+            <div class="summary-section">
+                <h2 class="hh">PROFILE</h2>
+                <p>As a passionate and skilled web development professional with expertise in building dynamic, responsive, and user-friendly websites, I have honed my abilities in front-end and back-end development. At just 18 years old, I bring a fresh perspective combined with technical proficiency in HTML, CSS, JavaScript, and frameworks like React and Node.js.</p>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="work-experience">
+                <h2 class="hh">Work Experience</h2>
+                <div class="job">
+                    <h3>Web Developer</h3>
+                    <h3>AZ Solution | 2/Jun/2020</h3>
+                    <p>Developed and maintained responsive websites and web applications.Collaborated with design and content teams to enhance user interfaces and improve site performance.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Full-Stack Developer</h3>
+                    <h3>SS SoftHouse | 4/Oct/2022</h3>
+                    <p>Led end-to-end development of web platforms, including front-end and back-end functionalities.
+                        Utilized frameworks such as React and Node.js to create dynamic and efficient solutions for clients.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Freelance Web Developer</h3>
+                    <h3>Freelancer | 1/Jan/2024</h3>
+                    <p>Provided web development services to a diverse range of clients, from small businesses to startups.</p>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="summary-section">
+                <h2 class="hh">Education</h2>
+                <p><b style="color: black;">MATIC:</b> From Dar-ul-Madina</p>
+                <p><b style="color: black;">9TH:</b> From Dar-ul-Madina</p>
+            </div>
+
+            <!-- Button to Toggle Skills Section -->
+            <center>
+                <button class="toggle-button" id="toggle-button">Hide/Show Skills</button>
+            </center>
+        </div>
+    </div>
+    <!-- Include external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
